@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NStore:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NStore</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NStore-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NStore:war exploded" />
+    </root>
+  </artifact>
+</component>
